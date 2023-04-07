@@ -43,7 +43,7 @@ class WeatherScrollAdapter(list: List<WeatherScrollItem>, frag: Fragment):Recycl
 
         Glide.with(frag)
             .load(listRef[position].url)
-            .apply(RequestOptions.overrideOf(300, 200))
+            .apply(RequestOptions.overrideOf(1200, 800))
             .into(holder.view.findViewById(R.id.mapScrollImageView))
 
         holder.view.findViewById<TextView>(R.id.mapName).setText(listRef.get(position).title)
