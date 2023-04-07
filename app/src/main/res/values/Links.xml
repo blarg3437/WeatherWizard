@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <String name = "NationalForecastMap">https://www.wpc.ncep.noaa.gov/NationalForecastChart/staticmaps/noaad1.png</String>
-    <String name = "QPF">https://www.wpc.ncep.noaa.gov/qpf/fill_94qwbg.gif?1680875966497</String>
-    <String name = "Front">https://www.wpc.ncep.noaa.gov/basicwx/98fndfd.gif</String>
+        <string-array name="links">
+            <item>https://www.wpc.ncep.noaa.gov/NationalForecastChart/staticmaps/noaad1.png</item>
+            <item>https://www.wpc.ncep.noaa.gov/qpf/fill_94qwbg.gif?1680875966497</item>
+            <item>https://www.wpc.ncep.noaa.gov/basicwx/98fndfd.gif</item>
+        </string-array>
+
+        <string-array name="Titles">
+            <item>National Forecast Map</item>
+            <item>QPF</item>
+            <item>Fronts</item>
+        </string-array>
+
+    <string-array name="Descriptions">
+        <item>Large scale overview of the fronts and precipitation</item>
+        <item>Quantitative precipitation forecast shows expects quantities of rain/snow</item>
+        <item>Large scale overview, focusing more on the fronts of the US</item>
+    </string-array>
+
 </resources>

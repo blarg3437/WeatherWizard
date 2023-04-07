@@ -32,17 +32,17 @@ class WeatherScrollAdapter(list: List<WeatherScrollItem>, frag: Fragment):Recycl
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+
         //have to figure out how to get the amount into this class
         return listRef.size //temp
     }
 
     override fun onBindViewHolder(holder: WeatherScrollHolder, position: Int) {
-        TODO("Not yet implemented")
+
         //reusing views here, reconfigure all the changable assets(image, texts)
 
         Glide.with(frag)
-            .load(listRef.get(position).url)
+            .load(listRef[position].url)
             .apply(RequestOptions.overrideOf(300, 200))
             .into(holder.view.findViewById(R.id.mapScrollImageView))
 
