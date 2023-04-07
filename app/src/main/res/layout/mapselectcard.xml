@@ -19,7 +19,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/mapScrollImageView"
                 android:layout_width="288dp"
                 android:layout_height="193dp"
                 android:adjustViewBounds="false"
