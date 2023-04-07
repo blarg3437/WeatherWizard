@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <String name = "NationalForecastMap">https://www.wpc.ncep.noaa.gov/NationalForecastChart/staticmaps/noaad1.png</String>
+    <String name = "QPF">https://www.wpc.ncep.noaa.gov/qpf/fill_94qwbg.gif?1680875966497</String>
+    <String name = "Front">https://www.wpc.ncep.noaa.gov/basicwx/98fndfd.gif</String>
+</resources>
