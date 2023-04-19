@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">WeatherWizard</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="national_tab_txt">National</string>
+    <string name="local_tab_txt">Local</string>
+    <string name="custom_tab_txt">Custom</string>
+    <string name="saved_tab_txt">Saved</string>
+    <string name="browse_tab_txt">Browse</string>
 </resources>

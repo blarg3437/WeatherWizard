@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_saved_graph"
+    app:startDestination="@id/savedNationalFragment">
+    <fragment
+        android:id="@+id/savedNationalFragment"
+        android:name="com.example.weatherwizard.SavedNationalFragment"
+        android:label="fragment_saved_national"
+        tools:layout="@layout/fragment_saved_national" />
+    <fragment
+        android:id="@+id/savedLocalFragment"
+        android:name="com.example.weatherwizard.SavedLocalFragment"
+        android:label="fragment_saved_local"
+        tools:layout="@layout/fragment_saved_local" />
+    <fragment
+        android:id="@+id/savedCustomFragment"
+        android:name="com.example.weatherwizard.SavedCustomFragment"
+        android:label="fragment_saved_custom"
+        tools:layout="@layout/fragment_saved_custom" />
+</navigation>
